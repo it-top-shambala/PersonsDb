@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace PersonsDb.GuiApp
+namespace PersonsDb.GuiApp.Windows
 {
     public partial class MainWindow : Window
     {
