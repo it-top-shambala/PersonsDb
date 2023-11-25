@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonsDb", "PersonsDb\PersonsDb.csproj", "{49264B73-30FC-4AA0-8775-A629EDF56C27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonsDb.DbLib", "PersonsDb.DbLib\PersonsDb.DbLib.csproj", "{F9F79C68-3643-4D2E-9380-79D89095E741}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{49264B73-30FC-4AA0-8775-A629EDF56C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49264B73-30FC-4AA0-8775-A629EDF56C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49264B73-30FC-4AA0-8775-A629EDF56C27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F79C68-3643-4D2E-9380-79D89095E741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F79C68-3643-4D2E-9380-79D89095E741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F79C68-3643-4D2E-9380-79D89095E741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F79C68-3643-4D2E-9380-79D89095E741}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
