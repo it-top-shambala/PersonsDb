@@ -1,9 +1,10 @@
 ﻿<Application x:Class="PersonsDb.GuiApp.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
              xmlns:local="clr-namespace:PersonsDb"
-             StartupUri="MainWindow.xaml">
+             StartupUri="Windows/MainWindow.xaml">
     <Application.Resources>
-         
+         <sys:String x:Key="AppTitle">Persons</sys:String>
     </Application.Resources>
 </Application>
