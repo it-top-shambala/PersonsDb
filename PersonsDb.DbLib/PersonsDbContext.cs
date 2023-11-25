@@ -8,7 +8,7 @@ public class PersonsDbContext : DbContext
     
     public DbSet<Person> Persons { get; set; }
 
-    protected PersonsDbContext(string connectionString)
+    public PersonsDbContext(string connectionString)
     {
         _connectionString = connectionString;
     }
